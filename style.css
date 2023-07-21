@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Inter&display=swap');
+
+*{
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+
+header{
+    padding:146px;
+    background-image:url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size:auto 50rem;
+    object-fit: cover;
+    will-change:transform,opacity;
+}
+
+#headerimage{
+    width:100%;
+    height:100%;
+    margin-left:30rem;
+    margin-bottom:1rem;;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family:'Fredoka', sans-serif;
+    font-size:2em;
+    
+    width:30rem;
+    margin-left:25rem;
+}
+
+
+
+h2{
+    text-align: center;
+    color:#4a4a4a;
+    font-family: 'Fredoka', sans-serif;
+    font-size:2em;
+}
+
+#para{
+    margin: 0px;
+    line-height: 150%;
+    color: rgb(105, 105, 105);
+    text-align: center;
+    font-weight: 300;
+    font-family:'Fredoka', sans-serif;
+    font-size:1.5rem;
+    padding:10px 90px 10px 300px;
+    width:800px;
+   
+}
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    user-select: none;
+    opacity: 1;
+    padding: 1.7rem 0px;
+    margin: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 1.6rem;
+
+  }
+  
+  nav ul li {
+    display: inline;
+    color:white;
+    margin-top:1rem;
+    padding-bottom: 20px;
+    box-shadow: none;
+    outline: none;
+
+    padding-bottom: 1rem;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 0.2rem;
+
+    margin-right: 2rem;
+}
+  
+  
+  nav ul li a {
+    display:inline;
+    color:white;
+    text-decoration: none;
+  }
+  
+#states{
+    margin-top: 4rem;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:15rem;
+    margin-right:15rem;
+    margin-bottom:3rem;
+}
+
+a:link{
+  text-decoration: none;
+  color:#0d0d0d;
+}
+#states:hover{
+ 
+}
+
+
+#agra{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+
+
+
+#ahemdabad{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#ajmer{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#amritsar{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#bhubaneshwar{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#bengaluru{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#chandigarh{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#cuttack{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#chennai{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#darjeeling{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#dehradun{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#delhi{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#dharamsala{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#gangtok{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#goa{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#gorakhpur{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#guwahati{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#haridwar{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#ranchi{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#rajkot{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#shimla{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#surat{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#srinagar{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#trichy{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#tirupati{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#varanasi{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#vellore{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+#visakhapatnam{
+    font-size:1.5rem;
+    font-weight: 300;
+    width:300px;
+    padding:15px;
+  border:2px solid rgba(212, 188, 188, 0.5);
+  border-radius:10px;
+  box-shadow: 2px 2px 4px #7f6969a8;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+
+#outerbox{
+    padding-top:20px ;
+    padding-left:20px;
+    padding-bottom:10px;
+}
+
+footer{
+    background-color:#fbf6f6;
+}
+
+footer.img{
+    margin-top: 10px;
+  margin-right: px;
+  margin-left: 6rem;
+
+    
+}
+/*image + language +country */
+#footer{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: space-between;
+    font-family:'Fredoka', sans-serif;
+    font-weight: 300;
+    margin-top:2rem;
+    margin-bottom:3rem;
+    margin-left:13rem ;
+    margin-right:5rem;
+}
+
+
+.table{
+    display: flex;
+    margin-top:12px;
+    margin-left:50rem;
+    margin-right:5rem;
+}
+
+/*section- language*/
+#language{
+    width:110px;
+    height:40px;
+    font-size: 1.3rem;
+}
+
+#countryname{
+    padding-right: 30px;
+}
+
+/* select country*/
+#country{
+    width:110px;
+    height:40px;
+    font-size:1.3rem;
+}
+
+/*down display + content*/
+.footer{
+    display:grid;
+    grid-template-columns: repeat(5,12rem);
+    margin-left:13rem;
+    margin-right:5rem;
+    margin-bottom:5rem;
+    letter-spacing:0.8px;
+}
+
+/*restaurants + enterprises*/
+.together{
+    grid-template-rows:repeat(2,1fr);
+}
+
+
+
+#about{
+        display: flex; 
+        flex-direction: column; 
+      }
+      
+      ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+      }
+      
+#social{
+    grid-template-rows:repeat(3,2px);
+}
+
+#bottom{
+    margin-bottom: 10px;
+    margin-left:10rem;
+    margin-right:10rem;
+}
+
+
+
